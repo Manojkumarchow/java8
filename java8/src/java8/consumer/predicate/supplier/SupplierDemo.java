@@ -11,5 +11,4 @@ public class SupplierDemo {
 		System.out.println(list.stream().findAny().orElseGet(() -> 10));
 
 	}
-
 }
