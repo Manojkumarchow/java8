@@ -27,5 +27,9 @@ public class StreamDemo {
 //		map.forEach((name, surname) -> System.out.println(name + " " + surname));
 
 		map.entrySet().stream().forEach(obj -> System.out.println(obj));
+
+		// sort a map
+
+		map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
 	}
 }

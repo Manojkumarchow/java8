@@ -7,7 +7,7 @@ public class EmployeeDAO {
 
 	private List<Employee> employees = new ArrayList<>();
 
-	List<Employee> getEmployees() {
+	public List<Employee> getEmployees() {
 		employees.add(new Employee(1, "Manoj", 1200000L));
 		employees.add(new Employee(2, "Kumar", 1100000L));
 		employees.add(new Employee(3, "skjfn", 100000L));
